@@ -1,5 +1,6 @@
 # Webinoly-Oracle
 PHP 7.4
+MariaDB 10.3
 
 1. Login root
 2. Run
