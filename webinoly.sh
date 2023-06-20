@@ -16,3 +16,5 @@ sudo stack -memcached -purge -y
 sudo apt remove iptables-persistent -y
 sudo ufw disable
 sudo iptables -F
+sudo webinoly -info
+sudo webinoly -verify
