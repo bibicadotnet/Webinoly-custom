@@ -14,5 +14,5 @@ sudo apt install zip -y
 sudo apt install unzip -y
 sudo apt install htop -y
 sudo apt install screen -y
-sudo webinoly -info
 sudo webinoly -verify
+sudo webinoly -info
