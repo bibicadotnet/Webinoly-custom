@@ -8,11 +8,6 @@ wget https://raw.githubusercontent.com/bibicadotnet/Webinoly-custom/main/webinol
 sudo stack -nginx -build=light
 sudo stack -php-ver=8.2 -build=light
 sudo stack -mysql
-sudo stack -letsencrypt -purge -y
-sudo stack -backups -purge -y
-sudo stack -postfix -purge -y
-sudo stack -redis -purge -y
-sudo stack -memcached -purge -y
 sudo apt remove iptables-persistent -y
 sudo ufw disable
 sudo iptables -F
