@@ -7,7 +7,7 @@ timedatectl set-timezone Asia/Ho_Chi_Minh
 wget -qO weby qrok.es/wy && sudo bash weby -clean
 sudo stack -nginx=mainline
 sudo stack -php-ver=7.4
-sudo stack -mysql-ver=10.3
+sudo stack -mysql-ver=10.3.39
 sudo apt-get remove memcached -y
 sudo apt-get remove redis-server -y
 sudo apt remove iptables-persistent -y
