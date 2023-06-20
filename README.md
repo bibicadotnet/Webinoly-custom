@@ -1,4 +1,4 @@
-# Webinoly-custom
+# Webinoly-Oracle
 ```
 wget https://raw.githubusercontent.com/bibicadotnet/Webinoly-custom/main/webinoly.sh
 chmod +x webinoly.sh
