@@ -1,6 +1,6 @@
 # Webinoly-Oracle
-PHP 8.2
-MariaDB 10.11
+PHP 8.2 <br>
+MariaDB 10.6
 
 1. Login root
 2. Run
