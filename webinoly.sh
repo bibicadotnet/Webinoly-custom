@@ -10,8 +10,9 @@ sudo wget --no-check-certificate "https://raw.githubusercontent.com/bibicadotnet
 sudo stack -lemp -build=light
 # xóa mysql 10.6 mặc định
 sudo stack -mysql -purge=force
-# cài mysql 11.0
-sudo stack -mysql-ver=11.0
+# cài mysql 10.11
+sudo stack -mysql-ver=10.11
+sudo stack -mysql
 # tắt firewall cho Oracle Ubuntun
 sudo apt remove iptables-persistent -y
 sudo ufw disable
