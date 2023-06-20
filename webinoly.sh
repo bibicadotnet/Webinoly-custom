@@ -5,7 +5,9 @@ sudo apt install htop -y
 sudo apt install screen -y
 wget -qO weby qrok.es/wy && sudo bash weby -clean
 wget https://raw.githubusercontent.com/bibicadotnet/Webinoly-custom/main/webinoly.conf -O /opt/webinoly/webinoly.conf
-sudo stack -lemp
+sudo stack -nginx
+sudo stack -php
+sudo stack -mysql
 sudo apt-get remove memcached -y
 sudo apt-get remove redis-server -y
 sudo apt remove iptables-persistent -y
