@@ -4,7 +4,8 @@ sudo apt install unzip -y
 sudo apt install htop -y
 sudo apt install screen -y
 timedatectl set-timezone Asia/Ho_Chi_Minh
-wget -qO weby qrok.es/wy && sudo bash weby
+wget -qO weby qrok.es/wy && sudo bash weby -clean
+sudo stack -nginx=mainline
 sudo stack -php-ver=7.4
 sudo stack -mysql-ver=10.3
 sudo apt-get remove memcached -y
