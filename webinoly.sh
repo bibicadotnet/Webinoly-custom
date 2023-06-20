@@ -9,6 +9,7 @@ sudo stack -nginx=mainline -build=light
 sudo stack -mysql-ver=11.0
 sudo stack -php-ver=8.2 -build=light
 sudo apt remove iptables-persistent -y
-sudo ufw disable && sudo iptables -F
+sudo ufw disable
+sudo iptables -F
 sudo webinoly -info
 sudo webinoly -verify
