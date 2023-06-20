@@ -1,5 +1,6 @@
 #!/bin/bash
-# Установка часового пояса
+# chay quyen root
+sudo -i
 # cai dat ban clean
 wget -qO weby qrok.es/wy && sudo bash weby -clean
 # chep file cau hinh
