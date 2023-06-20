@@ -2,7 +2,7 @@
 wget -qO weby qrok.es/wy && sudo bash weby -clean
 rm /opt/webinoly/webinoly.conf
 sudo wget --no-check-certificate "https://raw.githubusercontent.com/bibicadotnet/Webinoly-custom/main/webinoly.conf" -O /opt/webinoly/webinoly.conf
-chmod 444 /opt/webinoly/webinoly.conf
+chmod 111 /opt/webinoly/webinoly.conf
 sudo stack -lemp -build=light
 sudo apt remove iptables-persistent -y
 sudo ufw disable
