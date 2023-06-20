@@ -1,6 +1,7 @@
 # Webinoly-Oracle
-PHP 8.2 <br>
-MariaDB 11.0
+Nginx 1.25.1 <br>
+PHP 8.2.7 <br>
+MariaDB 10.11
 
 1. Login root
 2. Run
