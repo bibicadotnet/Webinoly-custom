@@ -2,7 +2,5 @@
 1. Login root
 2. Run
 ```
-wget https://raw.githubusercontent.com/bibicadotnet/Webinoly-custom/main/webinoly.sh
-chmod +x webinoly.sh
-./webinoly.sh
+sudo wget https://raw.githubusercontent.com/bibicadotnet/Webinoly-custom/main/webinoly.sh && sudo chmod +x webinoly.sh && sudo ./webinoly.sh
 ```
