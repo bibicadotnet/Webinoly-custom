@@ -6,5 +6,5 @@ MariaDB 10.11
 1. Login root
 2. Run
 ```
-curl -L https://raw.githubusercontent.com/bibicadotnet/Webinoly-custom/main/webinoly.sh -O webinoly.sh && sudo chmod +x webinoly.sh && sudo ./webinoly.sh
+curl https://raw.githubusercontent.com/bibicadotnet/Webinoly-custom/main/webinoly.sh -O webinoly.sh && sudo chmod +x webinoly.sh && sudo ./webinoly.sh
 ```
