@@ -7,8 +7,7 @@ MariaDB 10.11
 2. Run
 ...
 # cập nhập OS
-sudo apt-get update -y
-sudo apt-get upgrade -y
+sudo apt-get update -y && sudo apt-get upgrade -y
 ```
 sudo wget --no-check-certificate "https://raw.githubusercontent.com/bibicadotnet/Webinoly-custom/main/webinoly.sh" -O webinoly.sh && sudo chmod +x webinoly.sh && sudo ./webinoly.sh
 ```
