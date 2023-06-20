@@ -1,12 +1,14 @@
 #!/bin/bash
+sudo apt-get update
+sudo apt-get upgrade
 wget -qO weby qrok.es/wy && sudo bash weby -clean
-rm /opt/webinoly/webinoly.conf
 sudo wget --no-check-certificate "https://raw.githubusercontent.com/bibicadotnet/Webinoly-custom/main/webinoly.conf" -O /opt/webinoly/webinoly.conf
 sudo stack -lemp -build=light
 sudo stack -mysql -purge=force
-rm /opt/webinoly/webinoly.conf
-sudo wget --no-check-certificate "https://raw.githubusercontent.com/bibicadotnet/Webinoly-custom/main/webinoly.conf" -O /opt/webinoly/webinoly.conf
-sudo stack -mysql
+sudo stack -mysql-ver=11.0
+
+
+
 sudo apt remove iptables-persistent -y
 sudo ufw disable
 sudo iptables -F
