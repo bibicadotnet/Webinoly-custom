@@ -1,5 +1,4 @@
 #!/bin/bash
-sudo -i
 wget -qO weby qrok.es/wy && sudo bash weby -clean
 wget https://raw.githubusercontent.com/bibicadotnet/Webinoly-custom/main/webinoly.conf -O /opt/webinoly/webinoly.conf
 sudo stack -lemp
