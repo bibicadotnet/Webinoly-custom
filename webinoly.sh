@@ -1,7 +1,4 @@
 #!/bin/bash
-# cập nhập OS
-sudo apt-get update -y
-sudo apt-get upgrade -y
 # cài đặt webinoly sạch
 wget -qO weby qrok.es/wy && sudo bash weby -clean
 # chép file config
