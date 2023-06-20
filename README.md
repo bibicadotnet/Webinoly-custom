@@ -1,4 +1,6 @@
 # Webinoly-Oracle
+PHP 7.4
+
 1. Login root
 2. Run
 ```
